@@ -1,1 +1,0 @@
-define({r:0.5,st:'Stem',n:1,t:[0,72],u:['../Content/support/arro/Notifications.htm'],s:['$','expenditur','press','you'],p:[['$',41],['all',40],['attach',70],['can',62],['content',14],['due',23],['for',81],['how',32],['is',73],['message',54],['of',63],['payment',71],['recorded',64],['selecting',19],['task',29],['then',57],['transactions',81],['which',28]]});
