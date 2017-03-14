@@ -482,16 +482,51 @@ a.glossaryTerm
 	text-decoration: underline;
 }
 
-.xref
+.dropDown
 {
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
+	margin-bottom: 6px;
+	margin-top: 6px;
 }
 
-.xref:hover
+.dropDownHotspot
 {
-	color: #c4e3f3;
+	font-size: 0.9em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.dropDownHotspot:link
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: left;
+	background-image: url('DropDownOpenBlue.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: left;
+	background-image: url('DropDownClosed.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.dropDownHead
+{
+	text-decoration: none;
+}
+
+.dropDownBody
+{
+	border-bottom: solid 1px # #5bc0de;
+	border-bottom-color: #5bc0de;
 }
 
 .glossaryTerm
@@ -545,51 +580,16 @@ a.glossaryTerm
 	border: 0;
 }
 
-.dropDown
+.xref
 {
-	margin-bottom: 6px;
-	margin-top: 6px;
-}
-
-.dropDownHotspot
-{
-	font-size: 0.9em;
+	color: #2D8DCC;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
-.dropDownHotspot:link
+.xref:hover
 {
-	font-size: 0.9em;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
-{
-	background-position: left;
-	background-image: url('DropDownOpenBlue.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
-{
-	background-position: left;
-	background-image: url('DropDownClosed.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.dropDownHead
-{
-	text-decoration: none;
-}
-
-.dropDownBody
-{
-	border-bottom: solid 1px # #5bc0de;
-	border-bottom-color: #5bc0de;
+	color: #c4e3f3;
 }
 
 .MCWebHelpFramesetLink a
