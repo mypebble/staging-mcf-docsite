@@ -529,6 +529,11 @@ a.glossaryTerm
 	border-bottom-color: #5bc0de;
 }
 
+.img
+{
+	border: 0;
+}
+
 .glossaryTerm
 {
 	font-weight: normal;
@@ -573,11 +578,6 @@ a.glossaryTerm
 	border: solid 1px #000000;
 	margin: 0px;
 	padding: 5px;
-}
-
-.img
-{
-	border: 0;
 }
 
 .xref
