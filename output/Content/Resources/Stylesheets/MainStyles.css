@@ -148,12 +148,13 @@ h1.nobreakbefore
 
 h2
 {
-	
+	margin-top: 0.75rem;
 }
 
 h3
 {
 	mc-heading-level: 3;
+	margin-top: 0.75rem;
 }
 
 img
@@ -176,6 +177,8 @@ img.ReduceButtonSize
 li
 {
 	mc-hyphenate-shortest-prefix: 20;
+	margin-bottom: 3px;
+	margin-top: 3px;
 }
 
 MadCap|breadcrumbsProxy
@@ -283,6 +286,7 @@ ol ol ol
 p
 {
 	mc-hyphenate-shortest-prefix: 20;
+	margin-bottom: 3px;
 }
 
 p.CompanyInformation1
@@ -447,6 +451,8 @@ MadCap|glossaryTerm:focus
 h4
 {
 	mc-heading-level: 0;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
 }
 
 h5
