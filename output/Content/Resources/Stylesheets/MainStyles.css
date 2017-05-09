@@ -532,6 +532,7 @@ h6
 	table
 	{
 		margin-bottom: 2rem;
+		page-break-inside: auto;
 	}
 
 	_generic_.table
@@ -556,6 +557,8 @@ h6
 		padding-top: 1px;
 		padding-bottom: 1px;
 		mc-hyphenate-shortest-word: 20;
+		orphans: 0;
+		widows: 5;
 	}
 
 	span.Name
@@ -569,6 +572,42 @@ h6
 	{
 		font-weight: bold;
 		font-style: normal;
+	}
+
+	p.pagebreak
+	{
+		page-break-after: always;
+		page-break-before: avoid;
+	}
+
+	p.pagebreakafter
+	{
+		page-break-after: always;
+		mc-auto-number-position: none;
+		mc-auto-number-format: '{ }';
+	}
+
+	p.IndexHeading
+	{
+		text-align: left;
+		margin-top: 6pt;
+		margin-bottom: 6pt;
+		mc-float: outside-frame-left;
+	}
+
+	p.Index1
+	{
+		mc-float: outside-frame-left;
+	}
+
+	a.printed
+	{
+		format: '{h1} on page {page}.';
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{h1} on page {page}.';
 	}
 }
 
@@ -671,5 +710,26 @@ p.quotation
 	font-style: italic;
 	margin-left: 30pt;
 	margin-right: 30px;
+}
+
+th.PageBreakBefore
+{
+	
+}
+
+p.pagebreakafter
+{
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Tip: ';
+}
+
+MadCap|xref.textinchapter
+{
+	mc-format: '{pageref}';
+}
+
+MadCap|xref.textinsidechapter
+{
+	mc-format: '{h2} on page {page}.';
 }
 
