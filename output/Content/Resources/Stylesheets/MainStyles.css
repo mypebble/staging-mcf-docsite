@@ -179,6 +179,7 @@ li
 	mc-hyphenate-shortest-prefix: 20;
 	margin-bottom: 3px;
 	margin-top: 3px;
+	mc-hyphenate: never;
 }
 
 MadCap|breadcrumbsProxy
@@ -465,6 +466,11 @@ h6
 	mc-heading-level: 0;
 }
 
+small
+{
+	font-size: small;
+}
+
 @media print
 {
 	MadCap|dropDownBody
@@ -574,6 +580,13 @@ h6
 		font-style: normal;
 	}
 
+	span.bigblue
+	{
+		color: #1e90ff;
+		font-size: normal;
+		font-weight: bold;
+	}
+
 	p.pagebreak
 	{
 		page-break-after: always;
@@ -608,6 +621,11 @@ h6
 	MadCap|xref
 	{
 		mc-format: '{h1} on page {page}.';
+	}
+
+	div.GlossaryPageTerm
+	{
+		mc-hyphenate-shortest-word: 20;
 	}
 }
 
@@ -731,5 +749,10 @@ MadCap|xref.textinchapter
 MadCap|xref.textinsidechapter
 {
 	mc-format: '{h2} on page {page}.';
+}
+
+p.red
+{
+	color: #ff0000;
 }
 
