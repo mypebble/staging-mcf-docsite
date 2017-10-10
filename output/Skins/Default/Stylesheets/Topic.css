@@ -483,6 +483,18 @@ a.glossaryTerm
 	text-decoration: underline;
 }
 
+.xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #c4e3f3;
+}
+
 .glossaryTerm
 {
 	font-weight: normal;
@@ -529,16 +541,9 @@ a.glossaryTerm
 	padding: 5px;
 }
 
-.xref
+.img
 {
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.xref:hover
-{
-	color: #c4e3f3;
+	border: 0;
 }
 
 .dropDown
@@ -586,11 +591,6 @@ a.glossaryTerm
 {
 	border-bottom: solid 1px # #5bc0de;
 	border-bottom-color: #5bc0de;
-}
-
-.img
-{
-	border: 0;
 }
 
 .MCWebHelpFramesetLink a
