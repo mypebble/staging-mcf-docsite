@@ -101,7 +101,7 @@ body
 	cursor: pointer;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	z-index: 10001;
+	z-index: 999;
 }
 
 .MCPopupContainer2
@@ -529,11 +529,6 @@ a.glossaryTerm
 	padding: 5px;
 }
 
-.img
-{
-	border: 0;
-}
-
 .xref
 {
 	color: #2D8DCC;
@@ -591,6 +586,11 @@ a.glossaryTerm
 {
 	border-bottom: solid 1px # #5bc0de;
 	border-bottom-color: #5bc0de;
+}
+
+.img
+{
+	border: 0;
 }
 
 .MCWebHelpFramesetLink a
